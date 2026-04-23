@@ -1,0 +1,41 @@
+.badge {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* HTTP method colors */
+.badge-get {
+    color: #2d7ff9;
+}
+
+.badge-post {
+    color: #22c55e;
+}
+
+.badge-patch {
+    color: #f59e0b;
+}
+
+.badge-delete {
+    color: #ef4444;
+}
+
+.badge-put {
+    color: #a855f7;
+}
+
+.badge-example {
+    color: #808080;
+}
+
+code {
+    font-size: 0.9em;
+}
+
+.endpoint {
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 0.8rem;
+}

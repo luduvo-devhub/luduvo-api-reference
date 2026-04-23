@@ -8,13 +8,13 @@
 
 [project]
 
-site_name = "Documentation"
+site_name = "Luduvo API Reference"
 
-site_description = "A new project generated from the default template project."
+site_description = "Unofficial API Reference for https://luduvo.com"
 
 site_author = "Luduvo Developer Hub"
 
-#site_url = "https://www.example.com/"
+site_url = "https://luduvo-devhub.github.io/luduvo-api-reference/"
 
 copyright = """
 Copyright &copy; 2026 Luduvo DevHub community

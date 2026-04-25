@@ -119,3 +119,87 @@ title: Authorized User
   "is_owner": false
 }
 ```
+
+---
+
+### <span class="badge badge-get">GET</span> <span class="endpoint">/me/friends</span>
+
+    Get authorized user friends
+---
+
+#### Authentication
+
+| Type | Required |
+|-----|-----|
+| Bearer | Yes |
+
+---
+
+#### Example Response
+
+```json
+{
+  "items": [],
+  "total": 0,
+  "limit": 50,
+  "offset": 0
+}
+```
+
+---
+
+### <span class="badge badge-get">GET</span> <span class="endpoint">/me/inventory</span>
+
+    Get authorized user inventory
+    
+    !!! note
+        This appears to be identical to <span class="badge badge-get">GET</span> <span class="endpoint">/me/friends</span>.
+---
+
+#### Authentication
+
+| Type | Required |
+|-----|-----|
+| Bearer | Yes |
+
+---
+
+#### Example Response
+
+```json
+{
+	"items": [],
+	"total": 0,
+	"limit": 50,
+	"offset": 0
+}
+```
+
+---
+
+### <span class="badge badge-get">GET</span> <span class="endpoint">/me/items</span>
+
+    Get authorized user items
+    
+    !!! note
+        This appears to be identical to <span class="badge badge-get">GET</span> <span class="endpoint">/me/inventory</span>.
+---
+
+#### Authentication
+
+| Type | Required |
+|-----|-----|
+| Bearer | Yes |
+
+---
+
+#### Example Response
+
+```json
+{
+	"items": [],
+	"total": 0,
+	"limit": 50,
+	"offset": 0
+}
+```
